@@ -7,8 +7,8 @@ askExpert.controller('AnswersCtrl', function AnswersCtrl($scope, $stateParams, Q
     // };
 
     $scope.addAnswer = function(){
-        $scope.question.answers.push({ aText: $scope.answerText, upvote: 0, comments: []})
-        $scope.answers.aText = null;
+        $scope.question.answers.push({ aText: $scope.answers.answerText, upvote: 0, comments: []})
+        $scope.answers.answerText = null;
     };
     // factory.addAnswerComment = function(){
     //     factory.questions.answers.comments.push({ cText: factory.answers.comments.commentText });
