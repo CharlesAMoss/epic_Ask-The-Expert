@@ -13,8 +13,8 @@ askExpert.controller('AnswersCtrl', function AnswersCtrl($scope, $stateParams, Q
 
     // $scope.question.answer = UtilitiesFactory.findById(QuestionsFactory.question.answers, $stateParams.answerId);
 
-    $scope.addAnswerComment = function(){
-        $scope.questions.answers.comments.push({ cText: $scope.answers.comments.commentText });
-        $scope.answers.comments.cText = null;
-    };
+    // $scope.addAnswerComment = function(){
+    //     $scope.questions.answers.comments.push({ cText: $scope.answers.comments.commentText });
+    //     $scope.answers.comments.cText = null;
+    // };
 });
