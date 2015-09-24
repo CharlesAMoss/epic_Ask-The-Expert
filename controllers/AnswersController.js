@@ -5,8 +5,13 @@ askExpert.controller('AnswersCtrl', function AnswersCtrl($scope, $stateParams, Q
     // $scope.answerQuestion = function(question) {
     //     question.answered = true;
     // };
+
     $scope.addAnswer = function(){
-        $scope.questions.answers.push({ aText: $scope.answerText, upvote: 0, comments: []})
+        $scope.question.answers.push({ aText: $scope.answerText, upvote: 0, comments: []})
         $scope.answers.aText = null;
     };
+    // factory.addAnswerComment = function(){
+    //     factory.questions.answers.comments.push({ cText: factory.answers.comments.commentText });
+    //     factory.answers.comments.cText = null;
+    // };
 });

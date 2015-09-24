@@ -6,10 +6,11 @@ askExpert.factory('QuestionsFactory', function QuestionsFactory(){
         factory.qText = null;
     };
 
-    factory.addAnswerComment = function(){
-        factory.questions.answers.comments.push({ cText: factory.answers.comments.commentText });
-        factory.answers.comments.cText = null;
+    factory.addAnswer = function(){
+        factory.question.answers.push({ aText: factory.answerText, upvote: 0, comments: []})
+        factory.answers.aText = null;
     };
+
 
     return factory;
 });

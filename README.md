@@ -10,8 +10,10 @@ Clone and open index.html in your browser.
 
 OSX: In your project folder in the terminal, enter
 ```
-$ python -m SimpleHTTPServer and then navigate to localhost:8000.
+$ python -m SimpleHTTPServer
 ```
+and then navigate to localhost:8000
+
 _Windows, you can download [Mongoose](https://code.google.com/p/mongoose/), copy it to your project folder, and double-click it to launch a server and open your page in the browser._  
 
 ## Technologies Used
